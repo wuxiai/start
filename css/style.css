@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: .14rem; }
+
+html, body, .box {
+  width: 100%;
+  height: 100%; }
+
+html {
+  font-size: 625%; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+ul li, ol li {
+  list-style: none; }
+
+.box {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: .4rem; }
+
+section {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll; }
+
+footer {
+  width: 100%;
+  height: .4rem; }
+
+header {
+  background: #000;
+  line-height: .4rem;
+  display: flex;
+  justify-content: space-between; }
+  header a {
+    color: #fff;
+    flex: 1; }
+  header .da {
+    flex: 3.5;
+    text-align: center; }
+
+section {
+  width: 100%;
+  background: #eee; }
+  section .bg img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle; }
+  section .bg p {
+    width: 90%;
+    margin-left: 5%;
+    background: rgba(0, 0, 0, 0.5);
+    height: .03rem;
+    position: relative;
+    top: -.7rem; }
+    section .bg p b {
+      position: absolute;
+      width: .1rem;
+      height: .1rem;
+      border-radius: 50%;
+      background: yellow;
+      left: 0;
+      top: -100%; }
+    section .bg p span {
+      background: yellow;
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: .03rem;
+      display: inline-block; }
+  section h4 {
+    text-align: center;
+    background: #FFE1D5;
+    color: #C1727B;
+    padding: .2px 0; }
+
+.icon {
+  background: #fff;
+  display: flex; }
+  .icon a {
+    flex-basis: 33.3%;
+    padding: .2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .icon a img {
+      width: .2rem;
+      height: .2rem; }
+
+.main {
+  background: #fff;
+  margin-top: .05rem; }
+  .main p {
+    line-height: .2rem;
+    display: flex;
+    padding: .05rem .3rem;
+    justify-content: space-between; }
+
+footer button {
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #fff;
+  background: #C33552;
+  text-align: center;
+  line-height: 0.4rem; }
+
+/*# sourceMappingURL=style.css.map */
